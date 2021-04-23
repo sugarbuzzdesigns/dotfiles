@@ -1,0 +1,62 @@
+# Binary aliases
+alias python="/usr/local/bin/python3"
+
+# Editor/IDE aliases
+alias subl="/Applications/Sublime\ Text.app/Contents/SharedSupport/bin/subl"
+alias c="code"
+alias c.="code ."
+
+#Assembly CD Aliases
+alias assembly="cd /Users/phoydar/Development/Sugarbuzz/Clients/Public_School/byassembly.com/wp/wp-content/themes/assembly"
+alias assemblygit="cd /Users/phoydar/Development/Sugarbuzz/Clients/Public_School/byassembly.com/wp/wp-content"
+
+alias medialoft="cd /Users/patrickhoydar/Code/localhost/medialoft.com/app/public/wp-content"
+
+# Copy current working directory
+alias cpwd="pwd | tr -d '\n' | pbcopy"
+
+# File open aliases
+alias ozsh="c ~/.zshrc"
+alias oztheme="c ~/.oh-my-zsh/custom/themes/custom.zsh-theme"
+
+# Source .zshrc file
+alias srcz="source ~/.zshrc"
+
+# Apache Aliases
+alias hosts="c /etc/hosts"
+alias vhosts="c /private/etc/apache2/extra/httpd-vhosts.conf"
+alias vhostsm="c /Applications/MAMP/conf/apache/extra/httpd-vhosts.conf"
+alias apachestart="sudo apachectl start"
+alias apachestop="sudo apachectl stop"
+alias apacherestart="sudo apachectl -k restart"
+
+# git aliases
+alias gits="git status"
+alias gfl="git reset --hard HEAD && gl"
+
+# rails
+alias railsc="bundle exec rails c"
+alias foremans="bundle exec foreman start"
+alias melstart="bin/puma -t 0:8 -b 'ssl://0.0.0.0:9999?key=../localhost.salesloft.com.key&cert=../localhost.salesloft.com.crt'"
+
+# sl directories
+alias gandalf="cd ~/src/gandalf"
+alias melody="cd ~/src/melody"
+alias rhythm="cd ~/src/rhythm"
+alias rhapsody="cd ~/src/rhapsody"
+alias crm="cd ~/src/crm_repo"
+alias scout="cd ~/src/scout"
+
+# sugarbuzzdesigns directories
+alias kiku="cd ~/Code/gitlab/sugarbuzzdesigns/kiku"
+alias ml="cd /Users/patrickhoydar/Code/localhost/medialoft.com"
+alias sallfest="cd /Users/patrickhoydar/Code/localhost/sallfest.com"
+alias cig="cd /Users/patrickhoydar/Code/github/sugarbuzzdesigns/cigaretteracing"
+alias cigweb="cd /Users/patrickhoydar/Code/github/sugarbuzzdesigns/cigaretteracing/website/client"
+
+alias grep="grep --color=auto"
+
+alias bundles="bundle install && bundle exec rake db:migrate && foremans"
+
+# Docker 
+alias dps='docker ps'
